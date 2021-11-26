@@ -1,4 +1,4 @@
-from ChattSession import ChatSession
+from ChatSession import ChatSession
 
 # Create object, Import the file
 sessionObj = ChatSession('iphone_07_18-1.annot')
