@@ -1,7 +1,7 @@
 from ChattSession import ChatSession
 
 # Create object, Import the file
-sessionObj=ChatSession('iphone_07_18-1.annot')
+sessionObj = ChatSession('iphone_07_18-1.annot')
 
 # Print Number of lines
 TotalLines = sessionObj.GetNumLines()
@@ -32,5 +32,5 @@ UniqueMembers = sessionObj.GetUniqueMemberList()
 print("Unique Members List: ", UniqueMembers)
 
 # Print Unique Symbols List
-UniqueTags=sessionObj.GetUniqueTagList()
+UniqueTags = sessionObj.GetUniqueTagList()
 print("Unique tags: ", UniqueTags)
